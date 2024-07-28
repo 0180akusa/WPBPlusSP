@@ -1,0 +1,6 @@
+# 首次生成
+pyinstaller --onefile --windowed EPUBtoJPG.py
+# 修改spec后
+pyinstaller EPUBtoJPG.spec
+# 含特殊包
+pyinstaller --additional-hooks-dir=. --onefile --windowed WPBPlusSP.py
